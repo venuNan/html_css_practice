@@ -1,0 +1,24 @@
+body{
+    margin-left:0px;
+    margin-right:0px;
+}
+.nav_bar{
+    height: 40px;
+    width: 100%;
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+
+.nav_bar .options{
+    display: inline;
+}
+.nav_bar a{
+    padding: 10px;
+    text-decoration: none;
+}
+.nav_bar a:hover{
+    background-color: rgb(36, 231, 231);
+}
