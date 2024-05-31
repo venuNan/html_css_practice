@@ -1,0 +1,23 @@
+.page_selector{
+    justify-content: center;
+    display: flex;
+}
+
+.page_selector a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    width: 12px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(217, 218, 218);
+    text-align: center;
+    
+}
+.page_selector a:hover:not(.active){
+    background-color: rgb(171, 172, 172);
+}
+
+.page_selector .active{
+    background-color: rgb(85, 255, 0);
+}

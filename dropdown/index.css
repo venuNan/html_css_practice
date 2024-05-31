@@ -1,0 +1,34 @@
+
+.home{
+    width: fit-content;
+}
+.home button{
+    border: none;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(216, 229, 229);
+}
+.home .options{
+    position: absolute;
+    display: none;
+    box-shadow: 10px;
+}
+
+.home:hover .options{
+    display: block;
+}
+.home button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.options a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 5px;
+    background-color: rgb(216, 229, 229);
+}
+.options a:hover{
+    background-color: aquamarine;
+}
+
