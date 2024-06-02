@@ -1,0 +1,55 @@
+html,body{
+    font-family: sans-serif;
+    margin:0px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(113, 113, 113);
+}
+header{
+    background-color: rgb(84, 84, 84);
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+ header .image{
+    overflow: hidden;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    border-radius: 50px;
+}
+
+header .image img{
+    height: 100px;
+    
+}
+
+header .name{
+    font-size:x-large;
+    font-weight: bold;
+}
+header .profession{
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.nav_bar{
+    background-color: rgb(27, 26, 26);
+}
+.nav_bar button{
+    padding: 5px;
+    background-color:rgb(27, 26, 26);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.nav_bar button:hover{
+    background-color: bisque;
+    color: black;
+}
+
+main{
+    margin: 5px;
+}
