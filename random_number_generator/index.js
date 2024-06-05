@@ -1,5 +1,4 @@
 
-
 document.getElementById("generate").onclick = function(){
     let first = document.getElementById("first").value
     let second = document.getElementById("second").value
